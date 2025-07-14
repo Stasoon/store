@@ -38,3 +38,56 @@ header {
   background: #1976d2;
   color: #fff;
 }
+
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 1.5em;
+  justify-content: center;
+}
+.product-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #0001;
+  width: 230px;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  position: relative;
+}
+.product-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.7em;
+}
+.product-card button {
+  background: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+.product-card button:hover {
+  background: #1976d2;
+}
+.product-card .more-btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: #eee;
+  color: #2196f3;
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+.product-card .more-btn:hover {
+  background: #1976d2;
+  color: #fff;
+}
