@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f7fa;
+}
+header {
+  background: #2196f3;
+  color: #fff;
+  padding: 1em;
+  display: flex;
+  gap: 1em;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+#search {
+  padding: 0.5em;
+  border-radius: 4px;
+  border: none;
+  width: 200px;
+}
+#categories {
+  display: flex;
+  gap: 0.5em;
+}
+#categories button {
+  background: #fff;
+  color: #2196f3;
+  border: none;
+  border-radius: 3px;
+  padding: 0.4em 0.9em;
+  cursor: pointer;
+  transition: 0.2s;
+}
+#categories button.active, #categories button:hover {
+  background: #1976d2;
+  color: #fff;
+}
