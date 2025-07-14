@@ -91,3 +91,40 @@ header {
   background: #1976d2;
   color: #fff;
 }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0; top: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.3);
+  justify-content: center;
+  align-items: center;
+}
+.modal.show {
+  display: flex;
+}
+.modal-content {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2em;
+  width: 320px;
+  position: relative;
+  box-shadow: 0 8px 40px #0004;
+}
+.close {
+  position: absolute;
+  top: 15px; right: 25px;
+  font-size: 2em;
+  color: #999;
+  cursor: pointer;
+}
+.modal-content img {
+  width: 90%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 7px;
+  display: block;
+  margin: 0 auto 1em;
+}
