@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Simple Shop</h1>
+    <input id="search" placeholder="Пошук товару..." autocomplete="off">
+    <nav id="categories"></nav>
+    <button id="cart-btn">Кошик (<span id="cart-count">0</span>)</button>
+  </header>
+  <main>
+    <div id="products"></div>
+  </main>
+
+  <!-- Модалка для перегляду товару -->
+  <div id="product-modal" class="modal"></div>
+
+  <!-- Модалка для кошика -->
+  <div id="cart-modal" class="modal"></div>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
