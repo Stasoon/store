@@ -128,3 +128,36 @@ header {
   display: block;
   margin: 0 auto 1em;
 }
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em 0;
+  border-bottom: 1px solid #eee;
+}
+.cart-item button {
+  background: #eee;
+  color: #2196f3;
+  border: none;
+  font-size: 1em;
+  padding: 0 0.7em;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.cart-item button:hover {
+  background: #2196f3;
+  color: #fff;
+}
+.cart-form {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+.cart-form input {
+  padding: 0.4em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
