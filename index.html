@@ -6,11 +6,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Simple Shop</h1>
-    <input id="search" placeholder="Пошук товару..." autocomplete="off">
+  <!-- Основна шапка магазину -->
+  <header class="main-header">
     <nav id="categories"></nav>
-    <button id="cart-btn">Кошик (<span id="cart-count">0</span>)</button>
+    <h1>Simple Shop</h1>
+    <input id="search" type="search" placeholder="Пошук товару..." autocomplete="off">
+    <button id="cart-btn">
+      Кошик
+      <span id="cart-count">(0)</span>
+    </button>
   </header>
   <main>
     <div id="products"></div>
