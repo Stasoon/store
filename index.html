@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>S1mple Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Основна шапка магазину -->
+  <header class="main-header">
+    <nav id="categories"></nav>
+    <h1>S1mple Shop</h1>
+    <input id="search" type="search" placeholder="Пошук товару..." autocomplete="off">
+    <button id="cart-btn">
+      Кошик
+      <span id="cart-count">(0)</span>
+    </button>
+  </header>
+  <main>
+    <div id="products"></div>
+  </main>
+
+  <!-- Модалка точно для кошика -->
+  <div id="cart-modal" class="modal modal-cart"></div>
+
+  <!-- Модалка точно для перегляду товару -->
+  <div id="product-modal" class="modal modal-product"></div>
+
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
